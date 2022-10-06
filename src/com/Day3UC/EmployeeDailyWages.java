@@ -10,12 +10,11 @@ public class EmployeeDailyWages {
         System.out.print("Enter Full day hours:: ");
         int hours = input.nextInt();
 
-        System.out.print("Enter wage per hour: ");
+        System.out.print("Enter wages per hour: ");
         int wage_per_hour = input.nextInt();
 
       total_wage= hours * wage_per_hour ;
-        System.out.println("Total wage of Employee" +total_wage);
-
+        System.out.println("Employee Daily Wage: " +total_wage);
 
     }
 
